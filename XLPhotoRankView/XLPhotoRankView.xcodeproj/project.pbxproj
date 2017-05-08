@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54D4724CD914B18AD8958E6E /* libPods-XLPhotoRankView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3D112A3131FAF3A355CBD2 /* libPods-XLPhotoRankView.a */; };
+		84229BF91EC01E3C0015DA95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84229BF81EC01E3C0015DA95 /* main.m */; };
+		84229BFC1EC01E3C0015DA95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84229BFB1EC01E3C0015DA95 /* AppDelegate.m */; };
+		84229BFF1EC01E3C0015DA95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84229BFE1EC01E3C0015DA95 /* ViewController.m */; };
+		84229C021EC01E3C0015DA95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84229C001EC01E3C0015DA95 /* Main.storyboard */; };
+		84229C041EC01E3C0015DA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84229C031EC01E3C0015DA95 /* Assets.xcassets */; };
+		84229C071EC01E3C0015DA95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84229C051EC01E3C0015DA95 /* LaunchScreen.storyboard */; };
+		84229C161EC01F0A0015DA95 /* XLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84229C131EC01F0A0015DA95 /* XLImageView.m */; };
+		84229C171EC01F0A0015DA95 /* XLPhotoRankView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84229C151EC01F0A0015DA95 /* XLPhotoRankView.m */; };
+		84229C1A1EC01F380015DA95 /* DMTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 84229C191EC01F380015DA95 /* DMTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C3D112A3131FAF3A355CBD2 /* libPods-XLPhotoRankView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLPhotoRankView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53FA403A75216AE7C813231C /* Pods-XLPhotoRankView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPhotoRankView.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLPhotoRankView/Pods-XLPhotoRankView.release.xcconfig"; sourceTree = "<group>"; };
+		84229BF41EC01E3C0015DA95 /* XLPhotoRankView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLPhotoRankView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84229BF81EC01E3C0015DA95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84229BFA1EC01E3C0015DA95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84229BFB1EC01E3C0015DA95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84229BFD1EC01E3C0015DA95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84229BFE1EC01E3C0015DA95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84229C011EC01E3C0015DA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84229C031EC01E3C0015DA95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84229C061EC01E3C0015DA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84229C081EC01E3C0015DA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84229C121EC01F0A0015DA95 /* XLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLImageView.h; sourceTree = "<group>"; };
+		84229C131EC01F0A0015DA95 /* XLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLImageView.m; sourceTree = "<group>"; };
+		84229C141EC01F0A0015DA95 /* XLPhotoRankView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPhotoRankView.h; sourceTree = "<group>"; };
+		84229C151EC01F0A0015DA95 /* XLPhotoRankView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPhotoRankView.m; sourceTree = "<group>"; };
+		84229C181EC01F380015DA95 /* DMTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTool.h; sourceTree = "<group>"; };
+		84229C191EC01F380015DA95 /* DMTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMTool.m; sourceTree = "<group>"; };
+		AD33E50117E54764701260B4 /* Pods-XLPhotoRankView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPhotoRankView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLPhotoRankView/Pods-XLPhotoRankView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84229BF11EC01E3C0015DA95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D4724CD914B18AD8958E6E /* libPods-XLPhotoRankView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ACE70E8DC8A28C070553719 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD33E50117E54764701260B4 /* Pods-XLPhotoRankView.debug.xcconfig */,
+				53FA403A75216AE7C813231C /* Pods-XLPhotoRankView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84229BEB1EC01E3C0015DA95 = {
+			isa = PBXGroup;
+			children = (
+				84229BF61EC01E3C0015DA95 /* XLPhotoRankView */,
+				84229BF51EC01E3C0015DA95 /* Products */,
+				2ACE70E8DC8A28C070553719 /* Pods */,
+				EDC1752AA6B13382CA9BB54C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84229BF51EC01E3C0015DA95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84229BF41EC01E3C0015DA95 /* XLPhotoRankView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84229BF61EC01E3C0015DA95 /* XLPhotoRankView */ = {
+			isa = PBXGroup;
+			children = (
+				84229BFA1EC01E3C0015DA95 /* AppDelegate.h */,
+				84229BFB1EC01E3C0015DA95 /* AppDelegate.m */,
+				84229BFD1EC01E3C0015DA95 /* ViewController.h */,
+				84229BFE1EC01E3C0015DA95 /* ViewController.m */,
+				84229C111EC01F0A0015DA95 /* XLPhotoRankView */,
+				84229C001EC01E3C0015DA95 /* Main.storyboard */,
+				84229C031EC01E3C0015DA95 /* Assets.xcassets */,
+				84229C051EC01E3C0015DA95 /* LaunchScreen.storyboard */,
+				84229C081EC01E3C0015DA95 /* Info.plist */,
+				84229BF71EC01E3C0015DA95 /* Supporting Files */,
+			);
+			path = XLPhotoRankView;
+			sourceTree = "<group>";
+		};
+		84229BF71EC01E3C0015DA95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84229BF81EC01E3C0015DA95 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84229C111EC01F0A0015DA95 /* XLPhotoRankView */ = {
+			isa = PBXGroup;
+			children = (
+				84229C121EC01F0A0015DA95 /* XLImageView.h */,
+				84229C131EC01F0A0015DA95 /* XLImageView.m */,
+				84229C141EC01F0A0015DA95 /* XLPhotoRankView.h */,
+				84229C151EC01F0A0015DA95 /* XLPhotoRankView.m */,
+				84229C181EC01F380015DA95 /* DMTool.h */,
+				84229C191EC01F380015DA95 /* DMTool.m */,
+			);
+			path = XLPhotoRankView;
+			sourceTree = "<group>";
+		};
+		EDC1752AA6B13382CA9BB54C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C3D112A3131FAF3A355CBD2 /* libPods-XLPhotoRankView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84229BF31EC01E3C0015DA95 /* XLPhotoRankView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84229C0B1EC01E3C0015DA95 /* Build configuration list for PBXNativeTarget "XLPhotoRankView" */;
+			buildPhases = (
+				BB97C93D11A1EDA427757FA8 /* [CP] Check Pods Manifest.lock */,
+				84229BF01EC01E3C0015DA95 /* Sources */,
+				84229BF11EC01E3C0015DA95 /* Frameworks */,
+				84229BF21EC01E3C0015DA95 /* Resources */,
+				2DCE60AB6E0B13B6B951D90F /* [CP] Embed Pods Frameworks */,
+				B2F33BBF047C8B35A25062B9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLPhotoRankView;
+			productName = XLPhotoRankView;
+			productReference = 84229BF41EC01E3C0015DA95 /* XLPhotoRankView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84229BEC1EC01E3C0015DA95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = xll;
+				TargetAttributes = {
+					84229BF31EC01E3C0015DA95 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 49E7GW8VV9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84229BEF1EC01E3C0015DA95 /* Build configuration list for PBXProject "XLPhotoRankView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84229BEB1EC01E3C0015DA95;
+			productRefGroup = 84229BF51EC01E3C0015DA95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84229BF31EC01E3C0015DA95 /* XLPhotoRankView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84229BF21EC01E3C0015DA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84229C071EC01E3C0015DA95 /* LaunchScreen.storyboard in Resources */,
+				84229C041EC01E3C0015DA95 /* Assets.xcassets in Resources */,
+				84229C021EC01E3C0015DA95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DCE60AB6E0B13B6B951D90F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLPhotoRankView/Pods-XLPhotoRankView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2F33BBF047C8B35A25062B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLPhotoRankView/Pods-XLPhotoRankView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB97C93D11A1EDA427757FA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84229BF01EC01E3C0015DA95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84229BFF1EC01E3C0015DA95 /* ViewController.m in Sources */,
+				84229C171EC01F0A0015DA95 /* XLPhotoRankView.m in Sources */,
+				84229C1A1EC01F380015DA95 /* DMTool.m in Sources */,
+				84229BFC1EC01E3C0015DA95 /* AppDelegate.m in Sources */,
+				84229C161EC01F0A0015DA95 /* XLImageView.m in Sources */,
+				84229BF91EC01E3C0015DA95 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84229C001EC01E3C0015DA95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84229C011EC01E3C0015DA95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84229C051EC01E3C0015DA95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84229C061EC01E3C0015DA95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84229C091EC01E3C0015DA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84229C0A1EC01E3C0015DA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84229C0C1EC01E3C0015DA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD33E50117E54764701260B4 /* Pods-XLPhotoRankView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49E7GW8VV9;
+				INFOPLIST_FILE = XLPhotoRankView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xll.XLPhotoRankView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84229C0D1EC01E3C0015DA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53FA403A75216AE7C813231C /* Pods-XLPhotoRankView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49E7GW8VV9;
+				INFOPLIST_FILE = XLPhotoRankView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xll.XLPhotoRankView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84229BEF1EC01E3C0015DA95 /* Build configuration list for PBXProject "XLPhotoRankView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84229C091EC01E3C0015DA95 /* Debug */,
+				84229C0A1EC01E3C0015DA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84229C0B1EC01E3C0015DA95 /* Build configuration list for PBXNativeTarget "XLPhotoRankView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84229C0C1EC01E3C0015DA95 /* Debug */,
+				84229C0D1EC01E3C0015DA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84229BEC1EC01E3C0015DA95 /* Project object */;
+}

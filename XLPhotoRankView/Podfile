@@ -3,5 +3,5 @@ target :'XLPhotoRankView' do
 platform :ios,'8.0'
 
 pod 'SDWebImage', '~> 4.0.0-beta2'
-pod 'MJExtension', '~> 3.0.13'
+pod 'MJExtension', '~> 3.0.13' 
 end

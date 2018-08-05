@@ -2,4 +2,4 @@
 一个九宫格展示效果
 
 <br>
-![Image text](https://raw.githubusercontent.com/hunterxie/XLPhotoRankView/master/aa.gif)
+![Image text](https://github.com/hunterxie/XLPhotoRankView/raw/master/aa.gif)

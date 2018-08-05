@@ -39,18 +39,16 @@ typedef NS_ENUM(NSInteger, RankViewState) {
 
 @property(nonatomic,copy)void(^rankState)(RankViewState state);//排序的状态
 
-
-
 @property(nonatomic,assign)BOOL isNetImage;//是否是网络图片  
 
 -(CGFloat)reloadWithArray:(NSArray *)array withContentOffSetString:(NSString *)offSetString;//刷新UI
 
 /**
  *  获取图片偏移量数组的json 字符串
- *
- *  @return
  */
 -(NSString *)GetContentOffSetArrayString;
 
 +(CGFloat)GetHeightOfRankView:(NSArray *)picArray;//获取图片高度
+
+-(NSArray *)GetReRankArray;//获取排序后的图片数组
 @end

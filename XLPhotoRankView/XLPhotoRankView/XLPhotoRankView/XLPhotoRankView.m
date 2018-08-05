@@ -72,10 +72,6 @@
     for (int i = 0; i < self.dataArray.count; i++) {
         XLImageView *imageView =  [self viewWithTag:100+i];
         CGPoint offSet = imageView.contentOffset;
-        
-//        NSString *offX = [NSString stringWithFormat:@"%.3f",offSet.x / imageView.contentSize.width];
-//        NSString *offY = [NSString stringWithFormat:@"%.3f",offSet.y / imageView.contentSize.height];
-//        CGPoint newOffSet = CGPointMake([offX floatValue],[offY floatValue]);
         CGPoint newOffSet = CGPointMake((int)(offSet.x * 1000 / imageView.contentSize.width),(int)(offSet.y * 1000 / imageView.contentSize.height));
         NSString *offSetStr = NSStringFromCGPoint(newOffSet);
         [array addObject:offSetStr];
@@ -88,9 +84,6 @@
     _trashView.backgroundColor = [[UIColor blackColor]colorWithAlphaComponent:0.4];
     _trashView.hidden = YES;
     [self addSubview:_trashView];
-    
-    
-//    self.backgroundColor = [UIColor redColor];
     
     CGFloat distance = 13;
     CGFloat gap = 5;
@@ -618,5 +611,10 @@
             break;
     }
     return totalHeight;
+}
+
+-(NSArray *)GetReRankArray
+{
+    return self.dataArray;
 }
 @end

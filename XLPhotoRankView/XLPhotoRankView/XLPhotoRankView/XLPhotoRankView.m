@@ -175,6 +175,7 @@
             else
             {
                 //本地图片 未处理
+                [imageView setLocalImage:picArray[i]];
             }
         }
         else

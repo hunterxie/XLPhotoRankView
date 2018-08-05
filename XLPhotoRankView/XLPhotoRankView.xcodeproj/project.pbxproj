@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		54D4724CD914B18AD8958E6E /* libPods-XLPhotoRankView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3D112A3131FAF3A355CBD2 /* libPods-XLPhotoRankView.a */; };
+		5A01BEEA2116F05300C3B320 /* f.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5A01BEE42116F05300C3B320 /* f.jpeg */; };
+		5A01BEEB2116F05300C3B320 /* a.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5A01BEE52116F05300C3B320 /* a.jpeg */; };
+		5A01BEEC2116F05300C3B320 /* c.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5A01BEE62116F05300C3B320 /* c.jpeg */; };
+		5A01BEED2116F05300C3B320 /* b.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5A01BEE72116F05300C3B320 /* b.jpeg */; };
+		5A01BEEE2116F05300C3B320 /* e.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5A01BEE82116F05300C3B320 /* e.jpeg */; };
+		5A01BEEF2116F05300C3B320 /* d.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5A01BEE92116F05300C3B320 /* d.jpeg */; };
 		84229BF91EC01E3C0015DA95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84229BF81EC01E3C0015DA95 /* main.m */; };
 		84229BFC1EC01E3C0015DA95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84229BFB1EC01E3C0015DA95 /* AppDelegate.m */; };
 		84229BFF1EC01E3C0015DA95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84229BFE1EC01E3C0015DA95 /* ViewController.m */; };
@@ -22,6 +28,12 @@
 /* Begin PBXFileReference section */
 		0C3D112A3131FAF3A355CBD2 /* libPods-XLPhotoRankView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLPhotoRankView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53FA403A75216AE7C813231C /* Pods-XLPhotoRankView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPhotoRankView.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLPhotoRankView/Pods-XLPhotoRankView.release.xcconfig"; sourceTree = "<group>"; };
+		5A01BEE42116F05300C3B320 /* f.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f.jpeg; sourceTree = "<group>"; };
+		5A01BEE52116F05300C3B320 /* a.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpeg; sourceTree = "<group>"; };
+		5A01BEE62116F05300C3B320 /* c.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c.jpeg; sourceTree = "<group>"; };
+		5A01BEE72116F05300C3B320 /* b.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b.jpeg; sourceTree = "<group>"; };
+		5A01BEE82116F05300C3B320 /* e.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = e.jpeg; sourceTree = "<group>"; };
+		5A01BEE92116F05300C3B320 /* d.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d.jpeg; sourceTree = "<group>"; };
 		84229BF41EC01E3C0015DA95 /* XLPhotoRankView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLPhotoRankView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84229BF81EC01E3C0015DA95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84229BFA1EC01E3C0015DA95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +74,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5A01BEE32116F05300C3B320 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A01BEE42116F05300C3B320 /* f.jpeg */,
+				5A01BEE52116F05300C3B320 /* a.jpeg */,
+				5A01BEE62116F05300C3B320 /* c.jpeg */,
+				5A01BEE72116F05300C3B320 /* b.jpeg */,
+				5A01BEE82116F05300C3B320 /* e.jpeg */,
+				5A01BEE92116F05300C3B320 /* d.jpeg */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
 		84229BEB1EC01E3C0015DA95 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +112,7 @@
 				84229BFB1EC01E3C0015DA95 /* AppDelegate.m */,
 				84229BFD1EC01E3C0015DA95 /* ViewController.h */,
 				84229BFE1EC01E3C0015DA95 /* ViewController.m */,
+				5A01BEE32116F05300C3B320 /* resources */,
 				84229C111EC01F0A0015DA95 /* XLPhotoRankView */,
 				84229C001EC01E3C0015DA95 /* Main.storyboard */,
 				84229C031EC01E3C0015DA95 /* Assets.xcassets */,
@@ -188,9 +214,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A01BEED2116F05300C3B320 /* b.jpeg in Resources */,
+				5A01BEEF2116F05300C3B320 /* d.jpeg in Resources */,
+				5A01BEEB2116F05300C3B320 /* a.jpeg in Resources */,
+				5A01BEEA2116F05300C3B320 /* f.jpeg in Resources */,
 				84229C071EC01E3C0015DA95 /* LaunchScreen.storyboard in Resources */,
+				5A01BEEC2116F05300C3B320 /* c.jpeg in Resources */,
 				84229C041EC01E3C0015DA95 /* Assets.xcassets in Resources */,
 				84229C021EC01E3C0015DA95 /* Main.storyboard in Resources */,
+				5A01BEEE2116F05300C3B320 /* e.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +447,7 @@
 				84229C0D1EC01E3C0015DA95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

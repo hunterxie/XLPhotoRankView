@@ -2,4 +2,4 @@
 一个九宫格展示效果
 
 <br>
-![Image text](https://raw.githubusercontent.com/hunterxie/XLSlider/master/slider_left%402x.png)
+![Image text](https://github.com/hunterxie/XLPhotoRankView/blob/master/aa.gif)
